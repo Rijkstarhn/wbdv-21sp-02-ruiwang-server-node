@@ -17,6 +17,6 @@ demos(app)
 // const quizzesController = require('./controllers/quizzes-controller');
 // quizzesController(app)
 require('./controllers/quizzes-controller')(app)
-
+require('./controllers/questions-controller')(app)
 
 app.listen(4000)
