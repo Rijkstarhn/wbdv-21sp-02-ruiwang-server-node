@@ -5,11 +5,7 @@
       <change afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/services/questions/questions-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/quizzes-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions/questions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/quizzes-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes/quizzes-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/quizzes.json" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes/quizzes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +77,16 @@
       <option name="presentableId" value="Default" />
       <updated>1617144937129</updated>
       <workItem from="1617144938778" duration="10149000" />
-      <workItem from="1617235283351" duration="8098000" />
+      <workItem from="1617235283351" duration="10434000" />
     </task>
+    <task id="LOCAL-00001" summary="Added quiz related files. Including service, controller and json.">
+      <created>1617595607675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617595607675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added quiz related files. Including service, controller and json." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added quiz related files. Including service, controller and json." />
   </component>
 </project>
