@@ -9,13 +9,16 @@ module.exports = app => {
         // res.send(questions)
     }
 
+    // Is this really necessary?
     const findQuestionById = (req, res) => {
-        res.send(questionService.findQuestionById(req.params.quizId));
+        questionService.findQuestionById(req.params.quizId)
+            .then(question => res.send(question))
+        // res.send(questionService.findQuestionById(req.params.quizId));
     }
 
     const findQuestionsForQuiz = (req, res) => {
         questionService.findQuestionsForQuiz(req.params.quizId)
-            .then(questions => res.send(questions))
+            .then(quiz => res.send(quiz.questions))
         // console.log('findQuestionsForQuiz called!', req.params.quizId)
         // const quizId = req.params.quizId;
         // res.send(questionService.findQuestionsForQuiz(quizId))

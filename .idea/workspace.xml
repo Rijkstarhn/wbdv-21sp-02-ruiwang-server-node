@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a356a63-b6b0-4645-bdc5-15179a5b5df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/quiz-attempts-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/questions-dao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quiz-attempts-dao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quizzes-dao.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts-schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts-schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/quizzes/quizzes-schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/quizzes/quizzes-schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/questions/questions-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions/questions-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/quizzes/quizzes-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes/quizzes-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +82,7 @@
       <updated>1617144937129</updated>
       <workItem from="1617144938778" duration="10149000" />
       <workItem from="1617235283351" duration="12983000" />
-      <workItem from="1618090937072" duration="10416000" />
+      <workItem from="1618090937072" duration="23018000" />
     </task>
     <task id="LOCAL-00001" summary="Added quiz related files. Including service, controller and json.">
       <created>1617595607675</created>
@@ -105,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618461505824</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created quiz attempt model and schema">
+      <created>1618462023954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618462023954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +142,19 @@
     <MESSAGE value="Added question related files. Including service, controller and json." />
     <MESSAGE value="Don't know why this change..." />
     <MESSAGE value="Finished the lecture of W12.2 content." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the lecture of W12.2 content." />
+    <MESSAGE value="Created quiz attempt model and schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created quiz attempt model and schema" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/daos/questions-dao.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
