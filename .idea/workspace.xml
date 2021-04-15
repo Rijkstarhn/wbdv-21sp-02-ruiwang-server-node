@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a356a63-b6b0-4645-bdc5-15179a5b5df5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/questions/questions-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions/questions-schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes-schema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/quizzes-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/questions/questions-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions/questions-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/quizzes/quizzes-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes/quizzes-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +59,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -62,7 +84,7 @@
       <updated>1617144937129</updated>
       <workItem from="1617144938778" duration="10149000" />
       <workItem from="1617235283351" duration="12983000" />
-      <workItem from="1618090937072" duration="1211000" />
+      <workItem from="1618090937072" duration="9819000" />
     </task>
     <task id="LOCAL-00001" summary="Added quiz related files. Including service, controller and json.">
       <created>1617595607675</created>
@@ -78,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617665024851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Don't know why this change...">
+      <created>1618181128715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618181128715</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added quiz related files. Including service, controller and json." />
     <MESSAGE value="Added question related files. Including service, controller and json." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added question related files. Including service, controller and json." />
+    <MESSAGE value="Don't know why this change..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Don't know why this change..." />
   </component>
 </project>

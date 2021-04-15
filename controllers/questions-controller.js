@@ -3,8 +3,10 @@ module.exports = app => {
     const questionService = require('../services/questions/questions-service');
 
     const findAllQuestions = (req, res) => {
-        const questions = questionService.findAllQuestions();
-        res.send(questions)
+        questionService.findAllQuestions()
+            .then(questions => res.send(questions))
+        // const questions = questionService.findAllQuestions();
+        // res.send(questions)
     }
 
     const findQuestionById = (req, res) => {
@@ -12,9 +14,11 @@ module.exports = app => {
     }
 
     const findQuestionsForQuiz = (req, res) => {
-        console.log('findQuestionsForQuiz called!', req.params.quizId)
-        const quizId = req.params.quizId;
-        res.send(questionService.findQuestionsForQuiz(quizId))
+        questionService.findQuestionsForQuiz(req.params.quizId)
+            .then(questions => res.send(questions))
+        // console.log('findQuestionsForQuiz called!', req.params.quizId)
+        // const quizId = req.params.quizId;
+        // res.send(questionService.findQuestionsForQuiz(quizId))
     }
 
     app.get('/api/questions', findAllQuestions);
