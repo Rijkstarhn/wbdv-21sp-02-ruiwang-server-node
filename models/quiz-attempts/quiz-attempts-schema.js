@@ -5,7 +5,7 @@ const quizAttempts = mongoose.Schema({
     _id: String,
     score: Number,
     quiz: {type: String, ref: 'QuizzesModel'},
-    answer: [questionSchema]
+    answers: [questionSchema]
 }, {collection: 'quizAttempts'});
 
 module.exports = quizAttempts;

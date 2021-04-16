@@ -7,11 +7,11 @@ const scoreQuiz = (questions) => {
 }
 
 const findAttemptsForQuiz = (quizId) => {
-    return quizAttemptsModel.find({quiz: quizId}).populate("quiz", "title_id")
+    return quizAttemptsModel.find({quiz: quizId}).populate("quiz", "title_id").exec();
 }
 
-const createAttemptForQuiz = (quizId, attempt) => {
-    return quizAttemptsModel.create({quiz: quizId, answers: attempt, score: scoreQuiz(attempt)})
+const createAttemptForQuiz = (quizId, questions) => {
+    return quizAttemptsModel.create({quiz: quizId, answers: questions, score: scoreQuiz(questions)});
 }
 
 module.exports = {
