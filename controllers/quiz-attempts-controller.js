@@ -1,12 +1,12 @@
-const quizAttemptDao = require('../daos/quiz-attempts-dao');
+// const quizAttemptDao = require('../daos/quiz-attempts-dao');
 const quizAttemptsService = require('../services/quiz-attempts/quiz-attempts-service');
 
 module.exports = app => {
 
     const createAttempt = (req, res) => {
-        // console.log('req.body', req.body);
+        // console.log('req.body', req.body.attempts);
         // console.log('req.params.quizId', req.params.quizId);
-        quizAttemptsService.createAttemptForQuiz(req.params.quizId, req.body)
+        quizAttemptsService.createAttemptForQuiz(req.params.quizId, req.body.attempts, req.body.questions)
             .then(attempt => res.send(attempt))
     }
 

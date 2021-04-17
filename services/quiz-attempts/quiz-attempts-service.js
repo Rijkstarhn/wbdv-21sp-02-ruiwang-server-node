@@ -1,7 +1,7 @@
 const quizAttemptsDao = require('../../daos/quiz-attempts-dao');
 
-const createAttemptForQuiz = (quizId, questions) => {
-    return quizAttemptsDao.createAttemptForQuiz(quizId, questions);
+const createAttemptForQuiz = (quizId, attempts, questions) => {
+    return quizAttemptsDao.createAttemptForQuiz(quizId, attempts, questions);
 }
 
 const findAttemptsForQuiz = (quizId) => {
