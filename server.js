@@ -14,8 +14,7 @@ app.use(bodyParser.json())
 
 // set up mongoose
 const mongoose = require('mongoose');
-// mongoose.connect(uri || 'mongodb://localhost:27017/testMongoDB',
-mongoose.connect(uri,
+mongoose.connect(uri || 'mongodb://localhost:27017/testMongoDB',
     {useNewUrlParser: true, useUnifiedTopology: true});
 
 // Configures CORS

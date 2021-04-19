@@ -1,6 +1,9 @@
 {
   "name": "wbdv-21sp-02-ruiwang-server-node",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "Sample Node Server",
   "main": "index.js",
   "scripts": {
