@@ -18,7 +18,7 @@ module.exports = app => {
 
     const findQuestionsForQuiz = (req, res) => {
         questionService.findQuestionsForQuiz(req.params.quizId)
-            .then(questions => res.send(questions))
+            .then(quiz => res.send(quiz.questions))
         // console.log('findQuestionsForQuiz called!', req.params.quizId)
         // const quizId = req.params.quizId;
         // res.send(questionService.findQuestionsForQuiz(quizId))
