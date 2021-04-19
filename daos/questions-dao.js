@@ -12,6 +12,8 @@ const findQuestionsById = (qid) => {
 }
 
 const findQuestionsForQuiz = (qid) => {
+    console.log("2333", qid)
+    alert("2333")
     // console.log("12321", quizzesModel.findById(qid).populate('questions').exec());
     return quizzesModel.findById(qid).populate('questions').exec();
 }
