@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
+const MongoDB_URL = "mongodb+srv://ruiwang:ruiwang2333@cluster0.hb4mf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -10,7 +12,7 @@ app.use(bodyParser.json())
 
 // set up mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/testMongoDB',
+mongoose.connect(MongoDB_URL || 'mongodb://localhost:27017/testMongoDB',
     {useNewUrlParser: true, useUnifiedTopology: true});
 
 // Configures CORS
