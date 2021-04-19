@@ -16,8 +16,6 @@ const findQuestionById = (questionId) => {
 }
 
 const findQuestionsForQuiz = (quizId) => {
-    console.log("2333", quizId)
-    alert("2333")
     // return questionsModel.find({quizId: quizId});
     // return questions.filter(question => question.quizId === quizId)
     return questionsDao.findQuestionsForQuiz(quizId);

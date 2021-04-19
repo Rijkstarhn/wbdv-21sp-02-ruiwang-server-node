@@ -12,10 +12,10 @@ const findQuestionsById = (qid) => {
 }
 
 const findQuestionsForQuiz = (qid) => {
-    console.log("2333", qid)
-    alert("2333")
     // console.log("12321", quizzesModel.findById(qid).populate('questions').exec());
-    return quizzesModel.findById(qid).populate('questions').exec();
+    return questionsModel.find({"quizId": qid});
+    // don't know why exec doesn't work
+    // return quizzesModel.findById(qid).populate('questions').exec();
 }
 
 module.exports = {
