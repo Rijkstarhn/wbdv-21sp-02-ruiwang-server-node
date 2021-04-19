@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a356a63-b6b0-4645-bdc5-15179a5b5df5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/questions-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions-controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1618090937072" duration="45150000" />
       <workItem from="1618634669129" duration="5555000" />
       <workItem from="1618793139351" duration="2444000" />
-      <workItem from="1618801409483" duration="13721000" />
+      <workItem from="1618801409483" duration="13836000" />
     </task>
     <task id="LOCAL-00001" summary="Added quiz related files. Including service, controller and json.">
       <created>1617595607675</created>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618850466173</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added specific node version to package json to see if this can solve the cannot fetch via quizModel bug.">
+      <created>1618852945180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618852945180</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +198,7 @@
     <MESSAGE value="Modified MongoDB_URL by adding specific db name." />
     <MESSAGE value="Added some debug code." />
     <MESSAGE value="Modified fetch questions way from quiz.findbyId() to question.find()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified fetch questions way from quiz.findbyId() to question.find()" />
+    <MESSAGE value="Added specific node version to package json to see if this can solve the cannot fetch via quizModel bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added specific node version to package json to see if this can solve the cannot fetch via quizModel bug." />
   </component>
 </project>
